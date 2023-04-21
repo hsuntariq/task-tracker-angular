@@ -7,6 +7,12 @@
     <title>Document</title>
   </head>
   <body>
-    <button>{{ content }}</button>
+    <button
+      (click)="onClick()"
+      class="btn"
+      [ngStyle]="{ 'background-color': color }"
+    >
+      {{ text }}
+    </button>
   </body>
 </html>

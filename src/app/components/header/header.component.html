@@ -9,7 +9,11 @@
   <body>
     <header>
       <h1>{{ title }}</h1>
-      <app-buttons></app-buttons>
+      <app-button
+        (btnClick)="toggleTask()"
+        text="Add Task"
+        color="green"
+      ></app-button>
     </header>
   </body>
 </html>
