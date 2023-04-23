@@ -27,4 +27,7 @@ export class TaskService {
       headers: { 'Content-Type': 'application/json' },
     });
   }
+  addItem(task: Task): Observable<Task[]> {
+    return this.http.post<Task[]>(this.api_url, task);
+  }
 }

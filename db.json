@@ -4,19 +4,25 @@
       "id": 2,
       "text": "this is a second task",
       "day": "4th July 2023",
-      "reminder": true
+      "reminder": false
     },
     {
       "id": 3,
       "text": "this is a first task",
       "day": "4th July 2023",
-      "reminder": true
+      "reminder": false
     },
     {
       "id": 4,
       "text": "this is a second task",
       "day": "4th July 2023",
       "reminder": true
+    },
+    {
+      "text": "test task",
+      "day": "30th jun 2023 Monday",
+      "reminder": false,
+      "id": 5
     }
   ]
 }
