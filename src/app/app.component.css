@@ -1,0 +1,14 @@
+body {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+::-webkit-scrollbar {
+  width: 2px;
+  background: linear-gradient(red, orange);
+}
+
+::-webkit-scrollbar-thumb {
+  width: 2px;
+  background-color: black;
+}

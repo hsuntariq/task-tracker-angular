@@ -1,0 +1,12 @@
+<div
+  class="task mb-3"
+  *ngFor="let task of tasks"
+  style="display: flex; justify-content: space-between"
+  (dblclick)="onToggle(task)"
+  [ngClass]="{ remind: task.reminder }"
+>
+  <h5>
+    {{ task.text }}
+  </h5>
+  <button (click)="onDelete(task)" class="btn btn-danger">x</button>
+</div>

@@ -1,0 +1,9 @@
+.task {
+  background-color: lightgray;
+  margin-bottom: 2px;
+  padding: 1rem;
+  text-transform: capitalize;
+}
+.remind {
+  border-left: 3px solid green;
+}
