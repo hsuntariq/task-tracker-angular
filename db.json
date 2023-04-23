@@ -1,12 +1,6 @@
 {
   "tasks": [
     {
-      "id": 2,
-      "text": "this is a second task",
-      "day": "4th July 2023",
-      "reminder": false
-    },
-    {
       "id": 3,
       "text": "this is a first task",
       "day": "4th July 2023",
@@ -23,6 +17,12 @@
       "day": "30th jun 2023 Monday",
       "reminder": false,
       "id": 5
+    },
+    {
+      "text": "this is the new task",
+      "day": "wednesday",
+      "reminder": false,
+      "id": 6
     }
   ]
 }

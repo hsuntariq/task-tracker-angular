@@ -7,3 +7,18 @@
 .remind {
   border-left: 3px solid green;
 }
+
+.parent {
+  height: 250px;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+  background: linear-gradient(red, orange);
+}
+
+::-webkit-scrollbar-thumb {
+  width: 2px;
+  background-color: black;
+}

@@ -1,13 +1,16 @@
 <app-add-tasks (addTask)="addNewTask($event)"></app-add-tasks>
-<div
-  class="task mb-3"
-  *ngFor="let task of tasks"
-  style="display: flex; justify-content: space-between"
-  (dblclick)="onToggle(task)"
-  [ngClass]="{ remind: task.reminder }"
->
-  <h5>
-    {{ task.text }}
-  </h5>
-  <button (click)="onDelete(task)" class="btn btn-danger">x</button>
+<div class="container parent">
+  <div
+    class="task mb-3"
+    *ngFor="let task of tasks"
+    style="display: flex; justify-content: space-between"
+    (dblclick)="onToggle(task)"
+    [ngClass]="{ remind: task.reminder }"
+  >
+    <h6>
+      {{ task.text }}
+    </h6>
+    <p class="text-secondary"></p>
+    <button (click)="onDelete(task)" class="btn btn-danger">x</button>
+  </div>
 </div>
